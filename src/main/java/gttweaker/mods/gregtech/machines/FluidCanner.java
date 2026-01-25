@@ -1,7 +1,7 @@
 package gttweaker.mods.gregtech.machines;
 
 import static gregtech.api.enums.GTValues.RA;
-import static gregtech.api.recipe.RecipeMaps.fluidCannerRecipes;
+import static gregtech.api.recipe.RecipeMaps.cannerRecipes;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
@@ -58,7 +58,7 @@ public class FluidCanner {
                         .fluidOutputs()
                         .duration(duration)
                         .eut(eut)
-                        .addTo(fluidCannerRecipes);
+                        .addTo(cannerRecipes);
                 }
             });
     }
