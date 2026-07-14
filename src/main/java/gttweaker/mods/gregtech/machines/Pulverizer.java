@@ -53,7 +53,7 @@ public class Pulverizer {
                             .itemOutputs(i.nextItemArr())
                             .outputChances(i.nextIntArr())
                             .duration(i.nextInt())
-                            .duration(i.nextInt())
+                            .eut(i.nextInt())
                             .addTo(maceratorRecipes);
                     }
                 });
